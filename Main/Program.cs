@@ -12,7 +12,7 @@ namespace EKassaSystem.Main
 
             run();
 
-            Console.WriteLine("\nProgram ended");
+            Console.WriteLine("\n\tProgram ended...");
         }
 
         public static void run()
