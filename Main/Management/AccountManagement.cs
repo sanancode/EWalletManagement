@@ -68,14 +68,14 @@ namespace EKassaSystem.Main.Management
             #endregion
         }
 
-        public static void submenuShowAllAccounts(string waletid)
+        public static void submenuShowAllAccounts(string walletid)
         {
             //Qeydiyyatdan kecmis butun accountlari gosterir
             bool flag = false;
 
             for (int i = 0; i < Storage.ewallet.Count; i++)
             {
-                if (waletid == Storage.ewallet[i].WalletId)
+                if (walletid == Storage.ewallet[i].WalletId)
                 {
                     {
                         Console.WriteLine($"\n{Storage.ewallet[i].OwnerName}'s wallet"); //e walletin sahibinin adini gosterir daxil gosterir
