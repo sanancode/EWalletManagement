@@ -31,7 +31,8 @@ namespace EKassaSystem.Util
         {
             //Operation menu from selection 4 of account menu
             Console.WriteLine(
-                "1. Deposit money to account" +
+                "\nOperations..." +
+                "\n1. Deposit money to account" +
                 "\n2. Withdraw money from account" +
                 "\n3. Show Transactions" +
                 "\n4. Make account Active/Deactive" +

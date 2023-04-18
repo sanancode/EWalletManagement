@@ -1,4 +1,5 @@
 ﻿using EKassaSystem.Config;
+using EKassaSystem.Main.Management;
 using EKassaSystem.Util;
 
 namespace EKassaSystem.Main
@@ -25,6 +26,7 @@ namespace EKassaSystem.Main
                 switch (menu)
                 {
                     case 1:
+                        Console.WriteLine("\n\tE-Wallet Registration\n");
                         WalletManagement.CreateAWallet();
                         run();
                         break;

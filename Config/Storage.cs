@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EKassaSystem.Main;
+using EKassaSystem.Main.Classes;
 
 namespace EKassaSystem.Config
 {

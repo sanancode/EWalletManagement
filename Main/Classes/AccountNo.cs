@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EKassaSystem.Main
+namespace EKassaSystem.Main.Classes
 {
     internal class AccountNo
     {
@@ -13,7 +13,7 @@ namespace EKassaSystem.Main
         public string Currency { get; set; }
         public string Description { get; set; }
         public string CurrentStatus { get; set; }
-        public string Transaction { get; set; }
+        public List<Transaction> Transaction { get; set; }
 
         public AccountNo(string accountId, float balance, string currency,
             string description, string currentStatus)
@@ -23,6 +23,7 @@ namespace EKassaSystem.Main
             Currency = currency;
             Description = description;
             CurrentStatus = currentStatus;
+            Transaction = new List<Transaction>();
         }
     }
 }
