@@ -191,6 +191,11 @@ namespace EKassaSystem.Main.Management
                         break;
                 }
             }
+            else
+            {
+                CheckUtil.wrongMenuSelection();
+                MainProccess();
+            }
         }
 
     }
